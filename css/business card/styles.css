@@ -1,6 +1,6 @@
-.blue_border{
+/* .blue_border{
     border: 2px dotted blue;
-}
+} */
 .card{
     width: 400px;
     margin-left: auto;
@@ -9,6 +9,10 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    color: #2b3839;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddebf8;
+    border-bottom: 6px solid #d8cefe;
 }
 
 .profile_pic{
