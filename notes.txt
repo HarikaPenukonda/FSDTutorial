@@ -5,3 +5,8 @@
 
 2. The box model
     margin-->padding-->border-->content
+
+3. Why cant we have two block-level buttons?
+    when we use display : block, it takes up the entire horizontal 
+    space of the webpage, so if we add another button it pushes down. If we remove block the buttons are arranged side by side
+    but the auto margin does not work. We have 2 options to solve this issue - 1. text-inline 2. flexbox
