@@ -1,0 +1,4 @@
+1. Centering with margins
+    - display : block
+    - must have a width
+    - margin left/right : auto
