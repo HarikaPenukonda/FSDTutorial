@@ -1,0 +1,9 @@
+.card{
+    border: 2px dotted blue;
+    padding: 20px;
+}
+
+.profile_pic{
+    width: 150px;
+    margin: 30px;
+}
