@@ -10,3 +10,8 @@
     when we use display : block, it takes up the entire horizontal 
     space of the webpage, so if we add another button it pushes down. If we remove block the buttons are arranged side by side
     but the auto margin does not work. We have 2 options to solve this issue - 1. text-inline 2. flexbox
+
+4. flex box
+    justify-content : center --> pushes the content in the center
+    justify-content : end --> pushes the content to the complete right
+    justify-content: first baseline --> pushes the content to the left
