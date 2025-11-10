@@ -23,3 +23,20 @@
     border: 1px solid #dfe1e5;
     border-radius: 24px;
 }
+
+.btn-search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /* height: 30px; */
+    background-color: #dfe1e5;
+    border: 1px ;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+
+}
