@@ -31,3 +31,12 @@ body{
 #logo{
     width: 100px;
 }
+
+.title{
+    text-shadow: 0 0 4px black;
+}
+
+.netflix{
+    background-color: rgb(161, 51, 51);
+    height: 100px;
+}
