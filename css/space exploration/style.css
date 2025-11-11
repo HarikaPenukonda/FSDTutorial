@@ -13,3 +13,7 @@ body{
     border: none;
     font-family: inherit;
 }
+
+.underline{
+    border-bottom: 4px solid white;
+}
