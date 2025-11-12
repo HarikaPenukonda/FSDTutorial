@@ -19,10 +19,15 @@
     /* align-items: stretch; bydefault */
     /* align-items: center; */
 
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+    align-items: end; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 
 
 }
