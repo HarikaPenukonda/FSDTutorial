@@ -15,3 +15,13 @@
     justify-content : center --> pushes the content in the center
     justify-content : end --> pushes the content to the complete right
     justify-content: first baseline --> pushes the content to the left
+
+5. By default <div>'s are stacked upon each other - display : block by default
+        <div>
+        <div>
+        <div>
+    if we use display : flex --> <div><div><div>, each of the item gets its own
+    column.
+    justify-content - pushes along the horizontal axis --> (start,end,center,space-around.space-between,space-evenly)
+    align-items - pushes along the vertical axis | (start,end,center)
+    align-items by default has the value stretch

@@ -13,10 +13,11 @@
     align-items:
     start, center, end
     */
-    display: flex;
-    justify-content: end;
-    align-items: center;
     
+    display: flex;
+    justify-content: space-around;
+    /* align-items: stretch; bydefault */
+    align-items: start;
 }
 
 .item {
