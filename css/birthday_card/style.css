@@ -1,0 +1,21 @@
+@font-face {
+    font-family: HappyMonkey-Regular;
+    src: url("/Happy_Monkey/HappyMonkey-Regular.ttf");
+}
+.main{
+    text-align: center;
+    font-family: HappyMonkey-Regular;
+    background-color: #a2d2ff;
+    color: white;
+}
+
+#pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: #EFB0C9 solid 6px;
+}
+
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 1px black;
+}
