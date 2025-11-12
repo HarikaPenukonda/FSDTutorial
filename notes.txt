@@ -25,3 +25,19 @@
     justify-content - pushes along the horizontal axis --> (start,end,center,space-around.space-between,space-evenly)
     align-items - pushes along the vertical axis | (start,end,center)
     align-items by default has the value stretch
+
+6.  flex-direction
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    From the above lines the items are stacked next to each other <div><div><div>
+    flex-direction : row; -> default <div><div><div>
+    flex-direction : column; 
+        <div>
+        <div>
+        <div>
+    In this case, the role of justify content and align items are 
+    justify-content - pushes along the vertical axis --> (start,end,center,space-around.space-between,space-evenly)
+    align-items - pushes along the horizontal axis | (start,end,center)
