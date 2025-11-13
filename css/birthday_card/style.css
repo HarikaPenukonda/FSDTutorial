@@ -9,7 +9,7 @@ body{
     color: white;
 }
 
-.main{
+.main,.gift-section{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,5 +40,10 @@ h1,h2,h3,h4,p{
 }
 
 .gift-img{
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 400px;
     width: 400px;
+    background-image: url("/images/gift.webp");
+    background-size: cover;
 }
