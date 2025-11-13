@@ -3,7 +3,8 @@
     src: url("/Happy_Monkey/HappyMonkey-Regular.ttf");
 }
 body{
-    background-color: #a2d2ff;
+    /* background-color: #a2d2ff; */
+    background:linear-gradient(rgb(87, 184, 245),rgb(20, 169, 199));
     text-align: center;
     font-family: HappyMonkey-Regular;
     color: white;
@@ -46,4 +47,20 @@ h1,h2,h3,h4,p{
     width: 400px;
     background-image: url("/images/gift.webp");
     background-size: cover;
+}
+
+#gift-img-happy:hover{
+    background-image: url("/images/happy.gif");
+}
+
+#gift-img-hot:hover{
+    background-image: url("/images/cheer.gif");
+}
+
+#gift-img-handsome:hover{
+    background-image: url("/images/handsome.gif");
+}
+
+#gift-img-cheers:hover{
+    background-image: url("/images/bday.gif");
 }
