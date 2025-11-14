@@ -43,3 +43,8 @@
     align-items - pushes along the horizontal axis | (start,end,center)
 
 7. onClick - eventListener
+
+8. Document Object Model(DOM) - how we use JS to modify a website
+    Document - HTML document
+    Object - document keyword is a type of object in JS, html element --> JS object
+    model - Representation

@@ -7,8 +7,22 @@ body{
 }
 
 button{
-    background-color: rgb(114, 21, 21);
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
     font-size: xx-large;
     color: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    background-color: rgb(114, 21, 21);
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+#save-btn{
+    background-color: green;
+    width: 250px;
 }
