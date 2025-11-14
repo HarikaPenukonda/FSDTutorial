@@ -48,3 +48,6 @@
     Document - HTML document
     Object - document keyword is a type of object in JS, html element --> JS object
     model - Representation
+
+9. Escape -  "I\'d love the movie \"the lion king\" " - string
+10. count = count + 1 --> count += 1

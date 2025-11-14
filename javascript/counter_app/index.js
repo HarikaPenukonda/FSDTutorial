@@ -8,16 +8,20 @@
 
 
 let countEl = document.getElementById("count-el")
+
+let saveEl = document.getElementById("save-el")
+
 console.log(countEl) // <h1 id="count-el">0</h1>
 
 let count = 0
 function increment(){
-    count = count + 1
+    count += 1
     countEl.innerText = count
 }
 
 function save(){
-    console.log(count)
+    let result = count + "-" 
+    saveEl.innerHTML += result 
 }
 
 
