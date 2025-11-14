@@ -41,3 +41,5 @@
     In this case, the role of justify content and align items are 
     justify-content - pushes along the vertical axis --> (start,end,center,space-around.space-between,space-evenly)
     align-items - pushes along the horizontal axis | (start,end,center)
+
+7. onClick - eventListener

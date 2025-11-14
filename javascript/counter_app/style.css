@@ -5,3 +5,10 @@ body{
     border: 2px solid black;
     padding: 50px;
 }
+
+button{
+    background-color: rgb(114, 21, 21);
+    padding: 20px;
+    font-size: xx-large;
+    color: white;
+}
