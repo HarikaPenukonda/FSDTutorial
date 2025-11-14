@@ -1,6 +1,3 @@
-function increment(){
-    console.log("The button is clicked")
-}
 /*
     1. initalize the count as 0
     2. listen for the click on the increment button
@@ -8,6 +5,11 @@ function increment(){
     4. change the count-el in the HTML to relect the new count
 
 */
+let count = 0
+function increment(){
+    count = count + 1
+    console.log(count)
+}
 
 
 
