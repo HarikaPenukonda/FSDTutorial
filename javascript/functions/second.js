@@ -1,6 +1,15 @@
-let firstName = 'Harika'
-let lastName =  'Penukonda'
+let myName = 'Linda'
+let greeting = 'hi there'
 
-let fullName = firstName + " " +lastName
+function greet(){
+    console.log(greeting + ' ,' + myName + '!')
+}
 
-console.log('my name is ', fullName)
+greet()
+
+// let firstName = 'Harika'
+// let lastName =  'Penukonda'
+
+// let fullName = firstName + " " +lastName
+
+// console.log('my name is ', fullName)
