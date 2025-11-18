@@ -1,3 +1,9 @@
+let errorEl = document.getElementById("error")
+
+function error(){
+    errorEl.innerText = "something went wrong, please try again"
+}
+
 let myPoints = 3
 
 function add3Points(){
