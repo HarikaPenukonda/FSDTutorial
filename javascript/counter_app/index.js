@@ -20,8 +20,10 @@ function increment(){
 }
 
 function save(){
-    let result = count + "-" 
+    let result = count + " - " 
     saveEl.innerHTML += result 
+    countEl.innerText = 0
+    count  = 0
 }
 
 
