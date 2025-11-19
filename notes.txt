@@ -51,3 +51,12 @@
 
 9. Escape -  "I\'d love the movie \"the lion king\" " - string
 10. count = count + 1 --> count += 1
+
+10. QuerySelector - Find the first matching element using a CSS selector. Flexible but slower
+        Uses css selector eg: by id - #title
+                              by class - .title
+                              by tag - p
+                              select inside another element - div p
+                - use it to change content, change style, add event listeners
+
+11. getElementById - Uses only ID, not flexible but faster
