@@ -19,5 +19,8 @@ let experience = [
 experience.push("Software engineer intern in NIIT")
 console.log(experience)
 
+experience.pop()
+console.log(experience)
+
 // console.log(experience[2])
 // console.log(experience.length) // 4
