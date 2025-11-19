@@ -1,4 +1,11 @@
-// arrays - list of ordered items
+// arrays - list of ordered items - composite / complex data type
+
+let myself = [
+    "Harika Penukonda",
+    30,
+    true
+]
+
 
 // 0 indexed
 
@@ -9,5 +16,8 @@ let experience = [
     "Associate software engineer in TechMahindra"
 ]
 
-console.log(experience[2])
-console.log(experience.length) // 4
+experience.push("Software engineer intern in NIIT")
+console.log(experience)
+
+// console.log(experience[2])
+// console.log(experience.length) // 4
