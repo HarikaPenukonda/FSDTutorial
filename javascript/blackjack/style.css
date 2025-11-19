@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+h1{
+    color: goldenrod
+}
+button{
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+}
