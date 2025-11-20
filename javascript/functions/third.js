@@ -1,11 +1,17 @@
 
+function randomNumber(){
+    let randomNumber = Math.floor(Math.random() * 10) + 2
+    return randomNumber
+}
+
+console.log(randomNumber())
 
 function rollDice(){
     let randomNumber = (Math.floor(Math.random() * 6)) + 1
     return randomNumber
 }
 
-console.log(rollDice())
+//console.log(rollDice())
 
 // generates a random number between 0 and 1
 //console.log(randomNumber) // 0 to 5
