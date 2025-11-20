@@ -1,6 +1,17 @@
-let randomNumber = Math.random() * 6 // generates a random number between 0 and 1
 
-console.log(randomNumber)
+
+function rollDice(){
+    let randomNumber = (Math.floor(Math.random() * 6)) + 1
+    return randomNumber
+}
+
+console.log(rollDice())
+
+// generates a random number between 0 and 1
+//console.log(randomNumber) // 0 to 5
+
+// let flooredNumber = Math.floor(5.832620107917066) // 5
+// console.log(flooredNumber)
 
 // let player1Racetime = 102
 // let player2Racetime = 107
