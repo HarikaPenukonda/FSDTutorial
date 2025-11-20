@@ -1,4 +1,4 @@
-let firstCard = 10
+let firstCard = 12
 let secondCard = 2
 let cards = [firstCard,secondCard]
 let sum = firstCard + secondCard
@@ -36,6 +36,8 @@ function newCard(){
    
     let card =  10
     sum += card
+    cards.push(card)
+    console.log(cards)
     startGame()
 }
 
