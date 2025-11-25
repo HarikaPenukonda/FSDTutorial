@@ -6,8 +6,17 @@ let airbnb = {
     noOfGuests : 4,
     bedrooms : 1,
     isPrivate : true,
-    ammenties : ["poolAccess","laundry","parking space","gym" ]
+    ammenties : ["poolAccess","laundry","parking space","gym" ],
+    price : function sum(){
+        console.log("The price of the room is " + 344)
+    }
 }
 
 console.log(airbnb.nameOftheListing)
-console.log(airbnb.ammenties[2])
+console.log(airbnb.ammenties[2])    // Dot Notation
+console.log(airbnb["noOfGuests"])   // Bracket Notation
+
+airbnb.price()
+
+// delete airbnb.bedrooms
+// console.log(airbnb)
