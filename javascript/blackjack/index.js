@@ -5,10 +5,18 @@ let isBlackJack = false
 let isAlive = true
 let message = ""
 
+let player = {
+    my_name : "Micheal Scott",
+    chips : 142
+}
+
 
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
+let playerEl = document.getElementById("player-el")
+
+playerEl.textContent = player.my_name + " : " + player.chips
 
 function getRandom(){
     let randomNumber = Math.floor(Math.random() * 13) + 1
