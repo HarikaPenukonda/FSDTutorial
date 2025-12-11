@@ -2,7 +2,7 @@
 let cards = []
 let sum = 0
 let isBlackJack = false
-let isAlive = true
+let isAlive = false
 let message = ""
 
 let player = {

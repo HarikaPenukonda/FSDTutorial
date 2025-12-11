@@ -60,3 +60,6 @@
                 - use it to change content, change style, add event listeners
 
 11. getElementById - Uses only ID, not flexible but faster
+
+Shortcut - cmd + d - to select same word multiple times and edit
+ 
