@@ -61,5 +61,10 @@
 
 11. getElementById - Uses only ID, not flexible but faster
 
+12. addEventListener() - it is a JS method used to attach an event to an HTML element.
+    allows you to listen to events - click, keyphrase,scroll,mouseover etc. and run code in response
+
+    syntax : element.addEventListener("eventName",callbackFunction);
+
 Shortcut - cmd + d - to select same word multiple times and edit
  
