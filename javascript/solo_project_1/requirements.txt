@@ -1,0 +1,4 @@
+1. Generate 2 random passwords when the user clicks the button
+2. Each password should be 15 characters long
+3. Ability to set the length of the password
+ - copy on click (optional)
